@@ -230,7 +230,8 @@ body {
       </div>
     </div>
 </div>
-<embed src="./river.mp3" autostart="true" style="position:fixed; bottom: -1000">
+<iframe src="./river.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+</iframe> 
 <script>
     const urlParams = new URLSearchParams(window.location.search);
     const name = urlParams.get('name');
